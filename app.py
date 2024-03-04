@@ -7,8 +7,9 @@ from llama_index.llms.openai import OpenAI
 #from llama_index.llms import OpenAI
 import openai
 from llama_index.core import SummaryIndex
-from llama_index.readers.web import SimpleWebPageReader
-from llama_index.readers.web import SimpleWebPageReader
+#from llama_index.readers.web import SimpleWebPageReader
+from llama_index import *
+from llama_index.readers.web import *
 import pandas as pd
 import numpy as np
 import csv
