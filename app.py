@@ -1,7 +1,9 @@
 import streamlit as st
 #from llama_index import SimpleDirectoryReader, VectorStoreIndex, ServiceContext
 from llama_index.core import SimpleDirectoryReader , VectorStoreIndex, ServiceContext
-from llama_index.llms import OpenAI
+from llama_index.llms.openai import OpenAI
+
+#from llama_index.llms import OpenAI
 import openai
 from llama_index.readers.web import SimpleWebPageReader
 import pandas as pd
